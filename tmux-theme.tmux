@@ -96,7 +96,7 @@ tmux set-option -gq "window-status-format" \
 	"#[bg=default, fg=$color_fg_light] #I ┃ #[fg=$color_fg_base, nobold]#W #[fg=$color_fg_light,bold]#F "
 
 tmux set-option -gq "window-status-current-format" \
-	"#[bg=$color_secondary, fg=$color_fg_light, bold] #I ┃ #[fg=$color_fg_base, nobold]#W #[fg=$color_fg_light,bold]* "
+	"#[bg=$color_secondary, fg=$color_fg_light, bold] #I ┃ #[fg=$color_fg_base, nobold]#W #[fg=$color_fg_light,bold]#F "
 
 # status right
 username="$(whoami)"
